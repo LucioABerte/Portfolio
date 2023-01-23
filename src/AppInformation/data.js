@@ -129,7 +129,7 @@ const data = {
             subtitle: "Tech Stack",
             desc: "Responsive development of personal portfolio using ReactJs as Framework and Vite, Npm. Management of react-router-dom together with EmailJs for the contact section in forms. Other functionalities.",
             buttons: ["ReactJs", "Vite", "CSS3", "EmailJs"],
-            live: "",
+            live: "https://portfolio-lucioaberte.vercel.app/",
             code: "https://github.com/LucioABerte/Portfolio"
         },
 
