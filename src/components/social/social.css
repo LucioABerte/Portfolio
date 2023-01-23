@@ -1,0 +1,31 @@
+
+/* -- Social Media Icons Component -- */
+
+.social-container {
+    display: flex;
+    margin-top: 1.4rem;
+    width: 6rem;
+    
+}    
+
+.social-container a {
+    padding-right: 0.5rem;
+    font-size: 1.3rem;
+    color: #00C0FD;
+    
+}
+
+.social-container a:hover {
+    color: #0f96be;
+    font-size: 1.4rem;
+}
+
+
+/* -- Media Querys -- */
+
+@media screen and (max-width: 768px) {
+
+    .social-container {
+        display:none;
+    }
+}

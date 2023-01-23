@@ -1,0 +1,180 @@
+
+
+/* -- Contact Styling Component -- */
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    padding: 2rem;
+    height: 40rem;
+   
+    flex-direction: column;
+    background-image: url("pic.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.container {
+    padding: 3.75rem;
+    width: 100%;
+}
+
+.contact-form {
+    background-color: transparent;
+    padding: 2.5rem;
+}
+
+.form-group {
+    padding: 0.1rem;
+   
+}
+
+.contact-title {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 0.5rem;
+    
+    font-size: 1.5rem;
+    color: #145479;
+    line-height: 1.5em;
+    text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.15);
+}
+.contact-title:hover,
+.contact-subtitle:hover {
+    color: #15a8d4e3;
+}
+
+.contact-subtitle {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.15);
+    
+   
+    font-size: 1.8rem;
+    color: #145479;
+    line-height: 1.5em;
+    margin-bottom: 1rem;
+}
+
+.message {
+    font-family: 'Poppins';
+    letter-spacing: 0.6px;
+    height: 130px;
+    padding: 12px;
+    border: 1px solid #ececec;
+    text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.2);
+}
+    
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="text"]:focus,
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus,
+textarea:focus {
+    outline: none;
+    border: 1px solid #ececec;
+    font-family: 'Poppins';
+}
+input[type="password"],
+input[type="email"],
+input[type="text"],
+input[type="file"],
+textarea,
+#message,
+#search {
+    max-width: 100%;
+    margin-bottom: 15px;
+    border: none;
+    padding: 7px 15px;
+    height: auto;
+    background-color: rgba(236, 236, 236, 0.507);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    display: block;
+    width: 100%;
+    letter-spacing: 0.6px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: rgb(0, 151, 211);
+    border: 1px solid #ececec;
+    border-radius: 8px;
+    background-image: url("laptop.png");
+    background-attachment: fixed;
+    opacity: 0.8;
+    
+}
+input:focus,
+textarea:focus {
+    border-bottom-width: 1px;
+}
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+.contact button {
+
+    background: #00C0FD;
+    border: 1px solid hsl(189, 100%, 50%);
+    color: rgb(243, 243, 243);
+    padding: 5px 25px;
+    position: relative;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 8px;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+
+
+button:hover {
+    background-color:rgba(154, 240, 255, 0.555);
+    color: #0f96be;
+    cursor: pointer;
+    
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.5);
+}
+
+
+
+/* -- Media Querys -- */
+
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+
+    .contact {
+        padding: 0rem;
+        width: 100%;
+    }
+    .container {
+        padding: 0rem;
+        width: 100%;
+    }
+
+    .contact-form {
+        padding: 1.5rem;
+    }
+
+    .contact-title {
+        font-size: 1rem;
+        line-height: 1.2em;
+    }
+    
+    .contact-subtitle {
+        font-size: 1.5rem;
+        line-height: 1.5em;
+        margin-bottom: 1rem;
+    }
+    
+}

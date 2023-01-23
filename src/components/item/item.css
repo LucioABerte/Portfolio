@@ -1,0 +1,397 @@
+
+/* Item Component Styling */ 
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+    height: 100%;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.experience-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+
+    height: 4rem;
+    width: 100%;
+}
+
+.experience-top h2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+
+    padding-top: 0; 
+}
+
+.icon {
+    font-size: 1.1rem;
+    margin-right: 0.5rem;
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+.badge {
+    position: relative;
+    
+    height: 1.5rem;
+    width: 7rem;
+    margin-left: 13.3rem;
+    
+    color: #991c76;
+    background-color: #7ddff8;
+    border: 0.5px solid #cecece;
+    border-radius: 6.25rem;
+    text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.15);
+}
+
+.badge:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: lightskyblue;
+    border: 0.5px solid #cecece;
+}
+
+.experience-bot {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    
+    padding: 1.2rem;
+    height: 12rem;
+    width: 100%;
+    margin-bottom: -1rem;
+}
+
+.span1 {
+    position: relative;
+    top: -30%;
+
+    height: 3rem;
+    width: 100%;
+    
+    text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.2);
+}
+
+.span1 a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #b41788;
+    text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.2);
+}
+
+.span1 a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #8a44b9;
+    font-size: 1rem;
+}
+
+.span2 {
+    position: relative;
+    top: -40%;
+    width: 100%;
+    
+    text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.2);
+}
+
+.span3 {  
+    position: relative;
+    justify-content: space-between;
+
+    top: -55%;
+    padding-left: 28rem;
+    font-size: 0.9rem;
+    text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.2); 
+}
+
+.separator {
+    position: relative;
+    top: -35%;
+    left: 39%;
+    width: 10rem;
+    padding: 0.2px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(53, 53, 53, 0), rgba(221, 221, 221, 0.75), rgba(53, 53, 53, 0));
+}
+
+.experience-bot p {
+    position: relative;
+    text-align: start;
+    width: 40rem;
+
+    text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+/* -- Media Querys -- */ 
+
+
+@media screen and (max-width: 745px) {
+ 
+    .experience-top {
+        align-items: flex-start;
+        height: 4rem;
+        width: 100%;
+    }
+
+    .experience-bot {
+        padding: 1.2rem;
+        height: 12rem;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+    .badge {
+        margin-left: 5rem;
+    }
+    
+    .span3 {  
+        top: -53%;
+        padding-left: 20rem;
+    }
+    
+    .experience-bot p {
+        width: 32rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.2);
+    }  
+
+    .line-separator {
+        position: relative;
+        top: -7%;
+       
+        width: 90%;
+    }  
+}
+
+
+@media screen and (max-width: 585px) { 
+    .experience-top h2 {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .badge {
+        height: 1.5rem;
+        width: 6rem;
+        margin-left: 2rem;  
+        font-size: 0.8rem;
+    }
+
+    .span1 {
+        top: -20%;
+        height: 4rem;
+        font-size: 0.95rem; 
+    }
+
+    .span2 {
+        height: 2rem;
+        font-size: 0.95rem;
+    }
+
+    .span3 {
+        top: -61.5%;
+        height: 2rem;
+        padding: 0;
+        font-size: 0.95rem;
+    }
+
+    .experience-bot p {      
+        padding-top: 0rem;
+        top: -5%;
+        width: 100%;
+        line-height: 1.15rem;
+        font-size: 0.9rem;
+    }
+
+    .line-separator {
+        position: relative;
+        top: -10%;
+       
+        width: 100%;
+    }  
+}
+
+
+@media screen and (max-width: 495px) { 
+    
+    .experience-top h2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .badge {
+        height: 1.2rem;
+        width: 6rem;
+        margin-left: 12.5rem;
+        margin-top: 0.5rem;
+        font-size: 0.8rem;
+    }
+    .line-separator {
+        position: relative;
+        top: -10%;
+       
+        width: 90%;
+    }    
+}
+
+@media screen and (max-width: 415px) { 
+    
+    .experience-top h2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .badge {
+        height: 1.1rem;
+        width: 5rem;
+        margin-left: 0;
+        margin-top: 0.1rem;
+        font-size: 0.7rem;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .span1 {
+        top: -20%;
+        height: 2rem;
+        font-size: 0.8rem; 
+    }
+
+    .span2 {
+        height: 2rem;
+        font-size: 0.8rem;
+    }
+
+    .span3 {
+        top: -61.5%;
+        height: 2rem;
+        padding: 0;
+        font-size: 0.8rem;
+    }
+
+    .icon {
+        font-size: 1rem;
+    }
+
+    .experience-bot p {
+        
+        padding-top: 0.5rem;
+        top: -5%;
+        width: 18rem;
+        line-height: 1.1rem;
+        font-size: 0.75rem;
+    }
+}
+
+
+@media screen and (max-width: 420px) { 
+    .experience-top h2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+
+        top: -12%;
+    }
+
+    .badge {
+        height: 1.3rem;
+        width: 6rem;
+        margin-top: 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    .span1 {
+        top: -20%;
+        height: 2rem;
+        font-size: 0.9rem; 
+    }
+
+    .span2 {
+        height: 2rem;
+        font-size: 0.9rem;
+    }
+
+    .span3 {
+        top: -61.5%;
+        height: 2rem;
+        padding: 0;
+        font-size: 0.9rem;
+    }
+
+    .experience-bot p {    
+        padding-top: 0.5rem;
+        top: -4%;
+        width: 20rem;
+        line-height: 1.1rem;
+        font-size: 0.8rem;
+    }
+}
+
+
+@media screen and (max-width: 380px) { 
+    .experience-top h2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+
+        top: -10%;
+    }
+
+    .badge {
+        height: 1.1rem;
+        width: 5rem;
+        margin-left: 0;
+        margin-top: 0.4rem;
+        font-size: 0.7rem;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .span1 {
+        top: -20%;
+        height: 2rem;
+        font-size: 0.8rem; 
+    }
+
+    .span2 {
+        height: 2rem;
+        font-size: 0.8rem;
+    }
+
+    .span3 {
+        top: -61.5%;
+        height: 2rem;
+        padding: 0;
+        font-size: 0.8rem;
+    }
+
+    .icon {
+        font-size: 1rem;
+    }
+
+    .experience-bot p {
+        
+        padding-top: 0.5rem;
+        top: -5%;
+        width: 18rem;
+        line-height: 1.1rem;
+        font-size: 0.75rem;
+    }
+}
