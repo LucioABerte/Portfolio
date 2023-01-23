@@ -130,7 +130,7 @@ const data = {
             desc: "Responsive development of personal portfolio using ReactJs as Framework and Vite, Npm. Management of react-router-dom together with EmailJs for the contact section in forms. Other functionalities.",
             buttons: ["ReactJs", "Vite", "CSS3", "EmailJs"],
             live: "",
-            code: ""
+            code: "https://github.com/LucioABerte/Portfolio"
         },
 
         notes: {
